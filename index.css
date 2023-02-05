@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+}
+
+header,  footer{
+    display: flex;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+header .profileName{
+    margin: 5px 10px;
+}
+header .button{
+    position: relative;
+    top: 5px;
+    left: 100px;
+   
+}
+button{
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+main{
+    padding: 10px 2px;
+    width: 400px;
+    text-align: justify;
+}
+main .links{
+    display: flex;
+
+}
+ul li{
+    
+    list-style: none;
+    margin-right: 10px;
+}
+ul button{
+    margin-right: 10px;
+}
+ul{
+    display: flex;
+    margin-top: 2px;
+}
+.likes{
+    display: flex;
+}
+.likes div{
+    margin-right: 10px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#container header{
+    margin-left: -110px;
+}
+#container footer .likes{
+    margin-left: 40px;
+}
